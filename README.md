@@ -39,7 +39,7 @@ Skills you'll gain
     Category: Object-Oriented Programming (OOP)
     Object-Oriented Programming (OOP)
 
-    Introducing the Java FullStack Developer Specialization, designed to empower your software development career by providing a comprehensive skillset for building integrated, cloud-ready web applications.
+Introducing the Java FullStack Developer Specialization, designed to empower your software development career by providing a comprehensive skillset for building integrated, cloud-ready web applications.
 
 The specialization consists of three intensive courses:
 
