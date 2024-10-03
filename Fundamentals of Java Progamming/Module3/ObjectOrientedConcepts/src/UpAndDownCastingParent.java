@@ -1,6 +1,6 @@
 public class UpAndDownCastingParent {
 	//Vehicle
-	void drive() {
+	void parentMethod() {
 		System.out.println("Driving a Vehicle...");
 	}
 }

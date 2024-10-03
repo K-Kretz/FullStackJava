@@ -24,14 +24,16 @@ public class Main {
 		//UpCasting
 		//Upcasting will be done internally and due to upcasting the object is allowed 
 		//to access only parent class members and child class specified members (overridden methods, etc.) but not all members.
+
 		UpAndDownCastingParent parent2 = new UpAndDownCastingChild();
-		parent2.drive();
+		parent2.parentMethod();
 
 		//DownCasting
 		//Downcasting has to be done externally and due to downcasting a child object can acquire the properties of the parent object.
+		
 		UpAndDownCastingChild child1 = (UpAndDownCastingChild)parent2;
 
-		child1.drive();
+		child1.childMethod();
 		child1.speedUp();
 
 

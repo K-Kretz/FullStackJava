@@ -1,6 +1,6 @@
 public class UpAndDownCastingChild extends UpAndDownCastingParent {
 	//Car
-	void drive() {
+	void childMethod() {
 		System.out.println("Driving a Car...");
 	}
 	void speedUp(){
