@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div>
+		<h1>This should be purple because of combination selector</h1>
+	</div>
+	<div>
+		<h2 class="redBackground"> This is a class selector</h2>
+		<h1 id="greenBackground"> This is a greenBackground</h1>
+	</div>
+	<h1> This should not be changed to purple</h1>
+	<div>
+		<h2>This hsould be yellow as it a child of div h2</h2>
+		<span>
+			<h2>THis should not be yellow since it not a direct child</h2>
+		</span>
+	</div>
+
+	<span>
+		<span>hello</span>
+		<h1>This is adjacent sibling selector and same level of hiarchy so this should be centered</h1>
+		<h1>This should not be centered</h1>
+	</span>
+
+	<span>
+		<div>hello</div>
+		<h1>This is general sibling selector and this and</h1>
+		<h1> This should be right aligned</h1>
+	</span>
+</body>
+</html>

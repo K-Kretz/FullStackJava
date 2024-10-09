@@ -1,0 +1,29 @@
+h1 {
+	color: red;
+	background-color: blue;
+}
+.redBackground {
+	background-color: red;
+
+}
+#greenBackground{
+	background-color: green;
+}
+
+*{
+	color: brown;
+}
+div h1 {
+	background-color: purple;
+}
+
+div > h2 {
+	background-color: yellow;
+}
+
+span + h1 {
+	text-align: center;
+}
+div ~ h1 {
+	text-align: right;
+}
