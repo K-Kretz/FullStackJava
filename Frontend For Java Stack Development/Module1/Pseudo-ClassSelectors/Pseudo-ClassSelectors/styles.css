@@ -1,0 +1,31 @@
+
+button:hover {
+	background-color: red;
+	color: white;
+}
+button:active {
+	background-color: blue;
+
+}
+a:visited {
+	color: green;
+}
+input:focus {
+	background-color: yellow;
+	color: red;
+}
+p:nth-child(4){
+	background-color: red;
+}
+p:nth-child(2n + 1){
+	background-color: green;
+}
+p:nth-child(even){
+	color: yellow;
+}
+p:first-child {
+	text-align: center;
+}
+p:last-child{
+	text-align: right;
+}

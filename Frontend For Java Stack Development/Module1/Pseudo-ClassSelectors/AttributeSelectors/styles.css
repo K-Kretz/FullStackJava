@@ -1,0 +1,10 @@
+
+/*Pseudo-Attribute Example
+
+a[href^="http"]{
+	background-color: red;
+}
+input[type="email"]{
+	background-color: green;
+}
+

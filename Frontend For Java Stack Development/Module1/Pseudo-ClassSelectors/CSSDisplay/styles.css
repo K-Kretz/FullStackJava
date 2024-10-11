@@ -1,0 +1,12 @@
+div{
+	background-color: yellow;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+}
+span{
+	background-color: blue;
+	height: 100px;
+	margin: 10px;
+	display: block;
+}
