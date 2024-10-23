@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#one{
+	height: 50px;
+	background-color: aqua;
+/*	padding: 20px;*/
+	/*padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;*/
+	padding: 10px 5px 10px 5px;
+	border: 10px solid black;
+/*	margin:20px;*/
+	margin: 10px 5px 10px 5px;
+}
+#two{
+	height: 50px;
+	background-color: rgb(205, 177, 205);
+	margin: 15px;
+}
