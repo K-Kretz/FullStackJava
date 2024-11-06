@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: #404040;
+}
+
+.container-header{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-areas: 
+	"home clothes shoes . . search . .";
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+}
+
+.grid-item-home{
+	background-color: #ccc;
+	grid-area: home;
+}
+.grid-item-clothes{
+	background-color: #ccc;
+	grid-area: clothes;
+}
+.grid-item-shoes{
+	background-color: #ccc;
+	grid-area: shoes;
+}
+.grid-item-search{
+	background-color: #ccc;
+	grid-area: search;
+}
+
+.grid-item{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5px 5px;
+	text-decoration: none;
+}
+.grid-item:hover{
+	background-color: #000000;
+	color:#ffffff;
+}

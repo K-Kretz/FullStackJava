@@ -1,0 +1,10 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#one{
+	background-color: aqua;
+	padding: 20px;
+/*makes the spacing fit nicely on the sides	*/
+	text-align: justify; 
+}
