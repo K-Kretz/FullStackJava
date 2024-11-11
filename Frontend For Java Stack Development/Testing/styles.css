@@ -9,10 +9,10 @@
 	grid-template-rows: auto;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-areas: 
-	"home clothes shoes . . search . .";
+	"home clothes shoes . . search . ."
+	"file . . . . . picture picture";
 	overflow: hidden;
 	background-color: black;
-	position: fixed;
 }
 
 .grid-item-home{
@@ -42,4 +42,12 @@
 .grid-item:hover{
 	background-color: #000000;
 	color:#ffffff;
+}
+
+.grid-item-file{
+	background-color: #ccc;
+	grid-area: file;
+}
+.grid-item-picture{
+	grid-area: picture;
 }
