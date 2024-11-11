@@ -1,0 +1,13 @@
+
+
+*{
+	margin: 0;
+}
+.completed{
+	text-decoration: line-through;
+	color: gray;
+}
+li:hover{
+	background-color: black;
+	color: white;
+}
