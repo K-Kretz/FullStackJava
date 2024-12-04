@@ -2,34 +2,26 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="DOM.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 </head>
 <body>
-	<div class="container-header">
-		<div class="active grid-item grid-item-home">
-			<a class="active" href="#home">Home</a>
-		</div>
-		<div class="grid-item grid-item-clothes">
-			<a href="#clothes">Clothes</a>
-		</div>
-		<div class="grid-item grid-item-shoes">
-			<a href="#shoes">Shoes</a>
-		</div>
-		<div class="grid-item grid-item-search">
-			<input type="text" placeholder="Search for.." name="search">
-			<button class="searchButton" type="submit"></button>
-		</div>		
-	</div>
-	<div class="container-body">
-		<div class="grid-item-file">
-			<input type="file" id="file" name="fileInput"> Load a Picture
-		</div>
-		<div class="grid-item-picture">
-			<img src="data:," alt="Alternative Text">	
-		</div>
+	<div class="wrapper">
+	  <div class="header">
+		<ul class="nav-header">
+			<li class="nav-item home">Home</li>
+			<li class="nav-item mens">Mens</li>
+			<li class="nav-item womans">Womans</li>
+			<li class="nav-item childrens">Childrens</li>
+			<li class="nav-item cart">Cart</li>
+			<li class="nav-item account">Account</li>
+	    </ul>
+	  </div>
+	  <div class="sidebar">Sidebar</div>
+	  <div class="content">Content</div>
+	  <div class="footer">Footer</div>
 	</div>
 </body>
-<script type="text/javascript" src="DOM.js"></script>
 </html>

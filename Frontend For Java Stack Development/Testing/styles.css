@@ -1,53 +1,31 @@
 *{
-	margin: 0px;
-	padding: 0px;
-	background-color: #404040;
-}
-
-.container-header{
-	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-areas: 
-	"home clothes shoes . . search . ."
-	"file . . . . . picture picture";
-	overflow: hidden;
-	background-color: black;
-}
-
-.grid-item-home{
-	background-color: #ccc;
-	grid-area: home;
-}
-.grid-item-clothes{
-	background-color: #ccc;
-	grid-area: clothes;
-}
-.grid-item-shoes{
-	background-color: #ccc;
-	grid-area: shoes;
-}
-.grid-item-search{
-	background-color: #ccc;
-	grid-area: search;
-}
-
-.grid-item{
-	display: block;
+	padding: 0;
+	margin: 0;
+	background: #303030;
 	color: white;
-	text-align: center;
-	padding: 5px 5px;
-	text-decoration: none;
 }
-.grid-item:hover{
-	background-color: #000000;
-	color:#ffffff;
+.wrapper{
+	list-style: none;
+	display: grid;
+  	grid-template-columns: repeat(9, 1fr);
+ 	grid-auto-rows: minmax(100px, auto);
+  	grid-template-areas:
+	    "hd hd hd hd   hd   hd   hd   hd   hd"
+	    "sd sd sd main main main main main main"
+	    "sd sd sd  ft  ft   ft   ft   ft   ft";
 }
-
-.grid-item-file{
-	background-color: #ccc;
-	grid-area: file;
+.header {
+  grid-area: hd;
 }
-.grid-item-picture{
-	grid-area: picture;
+.footer {
+  grid-area: ft;
+}
+.content {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sd;
+}
+.nav-item{
+	display: inline-block;
 }
